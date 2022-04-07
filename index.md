@@ -12,4 +12,5 @@ _CSE Courses I've Taken:_
 * CSE 15L: Software Tools and Techniques Lab (Currently)
 
 _CSE 15L Lab Report Portfolio:_
-[Lab Report 1](https://<evprado849>.github.io/<cse15l-lab-reports>/lab-report-1-week-2.html)
+
+* [Lab Report 1](https://<evprado849>.github.io/<cse15l-lab-reports>/lab-report-1-week-2.html)
