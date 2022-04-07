@@ -15,8 +15,10 @@ both your computer and on VSCode.
 * In this class, we learn techniques/basics about
 connecting remotely to a server.
 * To connect to a remote server (for this class) open
-VSCode and the terminal and type the following: 
+VSCode and the terminal and type the following:
+
 `$ ssh cs15lsp22zzz@ieng6.ucsd.edu `
+* zzz in cs15lsp22zzz@ieng6 is your own login to connect to the server.
 
 ![image](https://user-images.githubusercontent.com/103149284/162327999-fb8d2976-1190-4024-a071-de27a8d3f8ae.png)
 
