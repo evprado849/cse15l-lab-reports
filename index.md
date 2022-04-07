@@ -3,7 +3,8 @@
 I'm Elijah Prado, a student at UCSD.
 
 Major: Cognitive Science w/ ML Specialization
-Minor: CS (We'll see how it goes)
+
+Minor: Computer Science (We'll see how long I last)
  
 _CSE Courses I've Taken:_
 * CSE 8A: Introduction to Programming I
