@@ -22,3 +22,25 @@ VSCode and the terminal and type the following: (Don't type the $)
 
 ![image](https://user-images.githubusercontent.com/103149284/162327999-fb8d2976-1190-4024-a071-de27a8d3f8ae.png)
 
+**Trying Some Commands:**
+
+`$ ls -lat`
+
+* Lists all the files that is in that directory
+
+`$ ls -a`
+
+* Lists all the files that is in that directory (However, hidden files are not seen)
+
+![image](https://user-images.githubusercontent.com/103149284/162606395-671060c9-c5d9-4d39-801e-163c0a2f146c.png)
+
+
+`$ scp desiredFileName.filetype cs15lsp22zz@ieng6.ucsd.edu:~/`
+
+* Transfers a secure copy of a file to the server (your login)
+
+![image](https://user-images.githubusercontent.com/103149284/162606453-5f046443-8f19-4f0a-9cb3-f09a550606ed.png)
+![image](https://user-images.githubusercontent.com/103149284/162606460-130e9c5d-24f0-4d24-b1e4-3912ff24f1e0.png)
+
+
+
