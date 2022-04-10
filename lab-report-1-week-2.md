@@ -39,8 +39,10 @@ VSCode and the terminal and type the following: (Don't type the $)
 
 * Transfers a secure copy of a file to the server (your login)
 
-![image](https://user-images.githubusercontent.com/103149284/162606453-5f046443-8f19-4f0a-9cb3-f09a550606ed.png)
-![image](https://user-images.githubusercontent.com/103149284/162606460-130e9c5d-24f0-4d24-b1e4-3912ff24f1e0.png)
+![image](https://user-images.githubusercontent.com/103149284/162606560-36e8c62d-7b7f-48f8-999c-a496685e7159.png)
+
+![image](https://user-images.githubusercontent.com/103149284/162606569-244876a5-a456-4112-8727-5a68a6db7182.png)
+
 
 
 
