@@ -43,6 +43,24 @@ VSCode and the terminal and type the following: (Don't type the $)
 
 ![image](https://user-images.githubusercontent.com/103149284/162606569-244876a5-a456-4112-8727-5a68a6db7182.png)
 
+**SSH Key:**
 
+* Using an SSH Key can save us time to log into the server without needing a password.
+
+* It can be setup via terminal on VSCode or on CMD Line with the code: `ssh-keygen`
+
+![image](https://user-images.githubusercontent.com/103149284/162667604-71db0c0e-9020-42c6-aa26-c19c2e160eb6.png)
+
+
+**Optimizing Remote Running:**
+
+* When working in between our local machine and the server, we want to do some commands that can help
+us know and use various files.
+
+`$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"` - Lists the home directory on the remote server
+
+![image](https://user-images.githubusercontent.com/103149284/162666123-fb5cb405-3285-4e09-9255-123c07e7ddfd.png)
+
+* Using semicolons can allow us to run multiple commands (depending on some terminals)
 
 
