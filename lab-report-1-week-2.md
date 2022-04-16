@@ -4,7 +4,7 @@
 
 * VSCode is an IDE for various programming languages such
 as Java, Python, and alike.
-* To install VSCode, go to this link: https://code.visualstudio.com/
+* [Install VS Code Here](https://code.visualstudio.com/)
 and make sure the environment is setup for Java (if you use Java) in
 both your computer and on VSCode.
 * As said by others: _Start Early, Start Often!_
