@@ -22,7 +22,9 @@ an unexpected output
 * Bug: Error / Faults in Computer Code/System
 * Symptom: Faulty Behavior in Program 
 * Failure Input: Unexpected Input / Error Outputs
+
 _Relationship Between the Three:_
+
 A program can have a bug that gives an unexpected output (i.e 2 + 2 is expecting 4, but gives 5).
 A symptom can be from this program is that it is expecting a number that is outputted, to be even,
 however, is odd. Failure input would be that the solution was expecting true for even, but 
