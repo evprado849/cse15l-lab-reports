@@ -17,8 +17,6 @@
 
 
 **Relationship with Bug, Symptom, and Failure Input:**
-* A bug or multiple bugs can cause an error to crash the program or
-an unexpected output 
 * Bug: Error / Faults in Computer Code/System
 * Symptom: Faulty Behavior in Program 
 * Failure Input: Unexpected Input / Error Outputs
