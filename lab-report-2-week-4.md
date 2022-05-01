@@ -18,8 +18,10 @@ is args[0]
 There could also be apprent bugs with the file we choose for args[0] or getLinks.
 * Symptom: The bug causes the out of bound error message because there is nothing to be indexed
 (Message: Index 0 out of bounds for length 0)
+
 _Running with args[0]: (A crash/error shown)__
 ![image](https://user-images.githubusercontent.com/103149284/166152590-60e82a33-d90d-45c0-80bc-21f5d53693aa.png)
+
 _Running without args[0]: (No apprent crash)_
 ![image](https://user-images.githubusercontent.com/103149284/166154132-fe6ccd09-a151-4c3a-8654-1b301fa8fada.png)
 
