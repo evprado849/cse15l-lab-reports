@@ -13,9 +13,9 @@
 
 **Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java:**
 * Failure-inducing Input: The input that will cause the failure is the user input (on line 30)
-is args[0]
-* Bug: The calling of args[0] in the main method is the bug that will cause the symptom (out of bounds)
-There could also be apprent bugs with the file we choose for args[0] or getLinks.
+is args[0].
+* Bug: The calling of args[0] in the main method is the bug that will cause the symptom (out of bounds).
+(Could also be apprent bugs in the getLinks method, for now, let's focus on input args[0]).
 * Symptom: The bug causes the out of bound error message because there is nothing to be indexed
 (Message: Index 0 out of bounds for length 0)
 
