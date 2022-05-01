@@ -11,27 +11,17 @@
 * Symptom: Faulty behavior that you can see 
 * Failure-Inducing Input: Input from user that causes bugs and symptoms to show.
 
-**Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java: **
-* Bug: Out of Bounds Error It goes out of bounds because it reaches index 0 out of 0
+**Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java:**
+* Failure-inducing Input: The input that will cause the failure is the user input (on line 30)
+is args[0]
+* Bug: The calling of args[0] in the main method is the bug that will cause the symptom (out of bounds)
+There could also be apprent bugs with the file we choose for args[0] or getLinks.
+* Symptom: The bug causes the out of bound error message because there is nothing to be indexed
+(Message: Index 0 out of bounds for length 0)
+_Running with args[0]: (A crash/error shown)__
 ![image](https://user-images.githubusercontent.com/103149284/166152590-60e82a33-d90d-45c0-80bc-21f5d53693aa.png)
-
-
-**Symptom:**
-
-
+_Running without args[0]: (No apprent crash)_
+![image](https://user-images.githubusercontent.com/103149284/166154132-fe6ccd09-a151-4c3a-8654-1b301fa8fada.png)
 
 
 
-
-
-**Relationship with Bug, Symptom, and Failure Input:**
-* Bug: Error / Faults in Computer Code/System
-* Symptom: Faulty Behavior in Program 
-* Failure Input: Unexpected Input / Error Outputs
-
-_Relationship Between the Three:_
-
-A program can have a bug that gives an unexpected output (i.e 2 + 2 is expecting 4, but gives 5).
-A symptom can be from this program is that it is expecting a number that is outputted, to be even,
-however, is odd. Failure input would be that the solution was expecting true for even, but 
-false instead.
