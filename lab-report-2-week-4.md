@@ -11,7 +11,7 @@
 * Symptom: Faulty behavior that you can see 
 * Failure-Inducing Input: Input from user that causes bugs and symptoms to show.
 
-**Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java:**
+**Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java & MarkdownParseTest.java:**
 * Failure-inducing Input: If the user was to input this README.md file, it will cause a failure.
 * Bug: When the program takes the user input on command line, it doesn't have any content for getLinks to be called upon:
 ![image](https://user-images.githubusercontent.com/103149284/166155310-117eaf5d-94a9-4ba3-96f6-6957b3921acb.png)
@@ -26,6 +26,23 @@ _Running with README.md file: (A crash/error shown)_
 _Running other files: (No apprent crash)_
 ![image](https://user-images.githubusercontent.com/103149284/166155206-19c4c660-24ee-4963-b840-7ebcbf470e3b.png)
 
+* Failure-inducing Input: In the JUnit Test, we see that the input we put in is 1 * 3, which is not equal to 4.
+* Bug: A leading bug for this if we had program(s) like this is it can lead the program to have an unexpected or unwanted output.
+* Symptom: Failing test, as expected and actual don't match, it can lead unexpected/unwanted outcomes for bigger programs.
+
+Failing Test:
+![image](https://user-images.githubusercontent.com/103149284/166163724-fc94c2cd-4980-4bd6-87f1-c5ff82e29364.png)
+
+
+
+Fixed Test:
+
+Fixed Test for JUnit to Pass:
+![image](https://user-images.githubusercontent.com/103149284/166163750-ae0ce4b7-5d6b-4ea2-bf72-4732a60d13eb.png)
+
+![image](https://user-images.githubusercontent.com/103149284/166163704-c2fcefc4-175d-46c6-b55a-2e9529929e65.png)
+
+
 
 
 **Fixing the failures:**
@@ -33,6 +50,6 @@ _Running other files: (No apprent crash)_
 ![image](https://user-images.githubusercontent.com/103149284/166155413-dc353654-80e7-4a71-944e-6b915e05fecb.png)
 ![image](https://user-images.githubusercontent.com/103149284/166155425-442406b5-8c23-49a9-990b-7e84820bceeb.png)
 
-* We could address a case where if there is no content, return null or 0 so there won't be an error:
+* We could address a case where if there is no content, return null or 0 so there won't be an error.
 
 
