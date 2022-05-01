@@ -12,18 +12,21 @@
 * Failure-Inducing Input: Input from user that causes bugs and symptoms to show.
 
 **Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java:**
-* Failure-inducing Input: The input that will cause the failure is the user input (on line 30)
-is args[0].
-* Bug: The calling of args[0] in the main method is the bug that will cause the symptom (out of bounds).
-(Could also be apprent bugs in the getLinks method, for now, let's focus on input args[0]).
-* Symptom: The bug causes the out of bound error message because there is nothing to be indexed
-(Message: Index 0 out of bounds for length 0)
+* Failure-inducing Input: If the user was to input this README.md file, it will cause a failure.
+* Bug: When the program takes the user input on command line, it doesn't have any content for
+* get links to be called upon.
+![image](https://user-images.githubusercontent.com/103149284/166155310-117eaf5d-94a9-4ba3-96f6-6957b3921acb.png)
 
-_Running with args[0]: (A crash/error shown)_
-![image](https://user-images.githubusercontent.com/103149284/166152590-60e82a33-d90d-45c0-80bc-21f5d53693aa.png)
+* Symptom: The bug causes the out of bound error message.
 
-_Running without args[0]: (No apprent crash)_
-![image](https://user-images.githubusercontent.com/103149284/166154132-fe6ccd09-a151-4c3a-8654-1b301fa8fada.png)
+
+_Running with README.md file: (A crash/error shown)_
+![image](https://user-images.githubusercontent.com/103149284/166155186-d1cfd068-41a1-4139-ad02-aad6cef6a647.png)
+
+
+_Running other files: (No apprent crash)_
+![image](https://user-images.githubusercontent.com/103149284/166155206-19c4c660-24ee-4963-b840-7ebcbf470e3b.png)
+
 
 
 **Fixing the failures:**
