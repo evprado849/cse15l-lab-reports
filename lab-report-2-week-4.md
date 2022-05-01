@@ -29,4 +29,10 @@ _Running other files: (No apprent crash)_
 
 
 **Fixing the failures:**
-* e
+* We could just simply fix the md file to have some content that would be used in getLinks:
+![image](https://user-images.githubusercontent.com/103149284/166155413-dc353654-80e7-4a71-944e-6b915e05fecb.png)
+![image](https://user-images.githubusercontent.com/103149284/166155425-442406b5-8c23-49a9-990b-7e84820bceeb.png)
+
+* We could address a case where if there is no content, return null or 0 so there won't be an error:
+
+
