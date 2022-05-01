@@ -5,7 +5,15 @@
 * Red is Original, Green is Recent Changes Made
 ![image](https://user-images.githubusercontent.com/103149284/164958755-e470fdde-907a-4db7-9aea-a72fee109dff.png)
 
-**Test File- Failure(s):**
+**Test File Failures and Relationships:**
+* [Information Came From Here](https://blog.regehr.org/archives/199)
+* Bug: A flaw in computer system that could have some symptoms.
+* Symptom: Faulty behavior that you can see 
+* Failure-Inducing Input: Input from user that causes bugs and symptoms to show.
+
+**Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java: **
+* Bug: Out of Bounds Error It goes out of bounds because it reaches index 0 out of 0
+![image](https://user-images.githubusercontent.com/103149284/166152590-60e82a33-d90d-45c0-80bc-21f5d53693aa.png)
 
 
 **Symptom:**
