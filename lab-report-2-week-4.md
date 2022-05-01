@@ -13,8 +13,7 @@
 
 **Relationship with Bug, Symptom, and Failure Input in MarkdownParse.java:**
 * Failure-inducing Input: If the user was to input this README.md file, it will cause a failure.
-* Bug: When the program takes the user input on command line, it doesn't have any content for
-* get links to be called upon.
+* Bug: When the program takes the user input on command line, it doesn't have any content for getLinks to be called upon:
 ![image](https://user-images.githubusercontent.com/103149284/166155310-117eaf5d-94a9-4ba3-96f6-6957b3921acb.png)
 
 * Symptom: The bug causes the out of bound error message.
