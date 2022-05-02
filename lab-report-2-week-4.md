@@ -51,6 +51,8 @@ Fixed Test for JUnit to Pass:
 ![image](https://user-images.githubusercontent.com/103149284/166155413-dc353654-80e7-4a71-944e-6b915e05fecb.png)
 ![image](https://user-images.githubusercontent.com/103149284/166155425-442406b5-8c23-49a9-990b-7e84820bceeb.png)
 
-* We could address a case where if there is no content, return null or 0 so there won't be an error.
+* We could address a case where if there is no content, return null or 0 so there won't be an error: (Suggestion for now)
+![image](https://user-images.githubusercontent.com/103149284/166331574-d8b39231-da00-4a94-b9c0-e07dfe1d6fb7.png)
+
 
 
