@@ -5,6 +5,7 @@
 * (To see actual changes, commit to main and push to origin)
 * Red is Original, Green is Recent Changes Made
 ![image](https://user-images.githubusercontent.com/103149284/164958755-e470fdde-907a-4db7-9aea-a72fee109dff.png)
+![image](https://user-images.githubusercontent.com/103149284/166163750-ae0ce4b7-5d6b-4ea2-bf72-4732a60d13eb.png)
 
 **Test File Failures and Relationships:**
 * [Information Came From Here](https://blog.regehr.org/archives/199)
@@ -34,12 +35,7 @@ _Running other files: (No apprent crash)_
 Failing Test:
 ![image](https://user-images.githubusercontent.com/103149284/166163724-fc94c2cd-4980-4bd6-87f1-c5ff82e29364.png)
 
-
-
-Fixed Test:
-
 Fixed Test for JUnit to Pass:
-![image](https://user-images.githubusercontent.com/103149284/166163750-ae0ce4b7-5d6b-4ea2-bf72-4732a60d13eb.png)
 
 ![image](https://user-images.githubusercontent.com/103149284/166163704-c2fcefc4-175d-46c6-b55a-2e9529929e65.png)
 
