@@ -15,3 +15,13 @@ Location of public key:
 * Stored in my settings > SSH Keys > Add SSH Key
 ![image](https://user-images.githubusercontent.com/103149284/167327216-8d2c8be9-4494-4d80-97ff-58149f5450c5.png)
 ![image](https://user-images.githubusercontent.com/103149284/167327065-244bc643-dcdc-4238-8f2e-0d6c5228ef00.png)
+
+Private key Stored:
+
+
+Running `git` commands to commit:
+
+Link to show commit
+
+
+**Copying whole directories with `scp -r`:**
