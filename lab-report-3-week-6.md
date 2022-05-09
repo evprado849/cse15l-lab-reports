@@ -44,3 +44,13 @@ _Link to show commit:_
 
 
 **Copying whole directories with `scp -r`:**
+
+_Copying your whole markdown-parse directory to your ieng6
+account:_ 
+* I just got the markdown-parser repository from GitHub and downloaded the repository onto my local computer.
+* I used `scp` command in order to get the repository on my local laptop onto my remote account.
+* Showing a successful copy command on the terminal:
+![image](https://user-images.githubusercontent.com/103149284/167501832-c4208dff-ad12-47d6-8e5b-cb1b4a08246e.png)
+* Showing that the new markdown-parse repository was also copied onto my remote account:
+![image](https://user-images.githubusercontent.com/103149284/167502035-a4bc8bfc-b03a-4034-917f-4316cf2322ed.png)
+
