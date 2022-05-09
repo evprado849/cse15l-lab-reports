@@ -33,6 +33,12 @@ _Private key Stored:_
 ![image](https://user-images.githubusercontent.com/103149284/167479729-d811d538-e860-4882-a730-b936a439dc49.png)
 
 _Running `git` commands to commit:_
+* I wrote a simple method in MarkdownParse.java to show a simple change in the code.
+![image](https://user-images.githubusercontent.com/103149284/167491069-b6182fc0-b2ec-4962-8be6-b012d852789a.png)
+* Originally, I had trouble pushing the changes I made from my remote, however I needed to make sure I properly setup the repository I want to change with the command: `git remote set-url origin <ssh link>`
+* I needed to do git pull (before I made changes on the remote account) to get other changes and then do `git push origin main` (The success that the java file changed is the message below after `git push origin main`).
+* ![image](https://user-images.githubusercontent.com/103149284/167491222-39faf8e9-6497-451a-85ed-90a63bf40907.png)
+
 
 _Link to show commit:_
 
