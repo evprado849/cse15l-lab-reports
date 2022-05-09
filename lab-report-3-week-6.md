@@ -9,6 +9,7 @@ ssh c:
 
 
 **Setup Github Access from ieng6:**
+
 Location of public key:
 * In order to get the contents of the public key, I did `cat ~/.ssh/id_rsa/pub` in the terminal on VSCode
 * Stored in my settings > SSH Keys > Add SSH Key
