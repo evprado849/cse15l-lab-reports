@@ -30,7 +30,7 @@ _Private key Stored:_
 * To make a new private and public key, I logged into the remote account and `ssh-keygen`.
 * Some content are blocked out just for extra privacy measures, however, the private key is stored in id_rsa.
 * After making new keys, they are stored in id_rsa (the private keys) and the public keys would be stored in id_rsa.pub .
-![image](https://user-images.githubusercontent.com/103149284/167479487-b36d97d6-2277-461a-bd4d-6b2856028259.png)
+![image](https://user-images.githubusercontent.com/103149284/167479729-d811d538-e860-4882-a730-b936a439dc49.png)
 
 _Running `git` commands to commit:_
 
