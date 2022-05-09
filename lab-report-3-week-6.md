@@ -1,4 +1,5 @@
 **Streamling ssh Configuration**
+
 My _.ssh/config_ File:
 * I needed to access the config file by typing this command on the terminal: ~:/.ssh/config
 * I typed in the Host, Hostname, account, and if needed, the Identity File to access the key
