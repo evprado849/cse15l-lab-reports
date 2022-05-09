@@ -3,8 +3,6 @@ My _.ssh/config_ File:
 * I needed to access the config file by typing this command on the terminal: ~:/.ssh/config
 * I typed in the Host, Hostname, account, and if needed, the Identity File to access the key
 ![image](https://user-images.githubusercontent.com/103149284/167310603-dc075ffb-16d3-4f9e-b645-0d4a037d402b.png)
-![image](https://user-images.githubusercontent.com/103149284/167338488-62910b53-6b6f-4403-97ee-5c693fc2fd6c.png)
-
 
 ssh c:
 
