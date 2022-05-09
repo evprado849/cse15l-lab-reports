@@ -7,7 +7,7 @@ _My .ssh/config File:_
 
 _ssh command to login:_
 * In order to login with just `ssh ieng6`, I needed to put the ssh key in the proper id_rsa file.
-* I needed to get the proper key starting with ssh-rsa and put it in id_rsa and in the remote authorized_keys file.
+* I needed to get the proper key starting with ssh-rsa and put it in id_rsa and in the remote authorized_keys file (ssh-rsa was from the id_rsa.pub file)
 ![image](https://user-images.githubusercontent.com/103149284/167344927-6a09fc21-a731-4a82-b7ed-de9452cb7245.png)
 
 _scp command:_
