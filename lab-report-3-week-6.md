@@ -21,8 +21,8 @@ _scp command:_
 **Setup Github Access from ieng6:**
 
 _Location of public key:_
-* In order to get the contents of the public key, I did `cat ~/.ssh/id_rsa.pub` in the terminal on VSCode.
-* I also updated the key in my id_rsa folder with the key above (key starting with ssh-rsa).
+* I made the public key from logging into my remote account and `ssh-keygen` (Just like below for private key).
+* I got the public key by going into my remote server and finding the public key on id_rsa.pub, starting with ssh-rsa.
 * To add the key on Github, I went to settings, SSH Keys, and add SSH key, I didn't show my ssh-rsa here for privacy.
 ![image](https://user-images.githubusercontent.com/103149284/167480453-1911af09-24f4-4c7f-9525-c667504bb131.png)
 
