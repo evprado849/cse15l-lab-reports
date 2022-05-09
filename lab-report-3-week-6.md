@@ -24,7 +24,7 @@ _Location of public key:_
 * In order to get the contents of the public key, I did `cat ~/.ssh/id_rsa.pub` in the terminal on VSCode.
 * I also updated the key in my id_rsa folder with the key above (key starting with ssh-rsa).
 * To add the key on Github, I went to settings, SSH Keys, and add SSH key, I didn't show my ssh-rsa here for privacy.
-![image](https://user-images.githubusercontent.com/103149284/167338503-a1434304-2ede-42bb-b584-c64d783bf9ed.png)
+![image](https://user-images.githubusercontent.com/103149284/167480453-1911af09-24f4-4c7f-9525-c667504bb131.png)
 
 _Private key Stored:_
 * To make a new private and public key, I logged into the remote account and `ssh-keygen`.
