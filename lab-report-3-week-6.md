@@ -11,7 +11,11 @@ _ssh command to login:_
 ![image](https://user-images.githubusercontent.com/103149284/167344927-6a09fc21-a731-4a82-b7ed-de9452cb7245.png)
 
 _scp command:_
-
+* To scp, I needed to get the path on my local computer where my id_rsa is.
+* I then needed the contents from my local computer and copy that into my remote account's authorized_keys.
+* The following output of the code typed in terminal shows that the copying was successful and what file contents was copied.
+![image](https://user-images.githubusercontent.com/103149284/167477247-c12b6761-e266-4662-a769-51b41d71a5be.png)
+ 
 
 
 **Setup Github Access from ieng6:**
