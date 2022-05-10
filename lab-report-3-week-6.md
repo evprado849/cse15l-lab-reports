@@ -54,3 +54,7 @@ account:_
 * Showing that the new markdown-parse repository was also copied onto my remote account:
 ![image](https://user-images.githubusercontent.com/103149284/167502035-a4bc8bfc-b03a-4034-917f-4316cf2322ed.png)
 
+_Copying a repository into ieng6 and running ieng6's:_
+* I first copied and pasted a repository on my local laptop with scp.
+* I used ssh to access the exact repository I just copied on my account and also did the javac and java commands equivalent to run the JUnit Tests without actually logging into my account.
+![image](https://user-images.githubusercontent.com/103149284/167729718-ddba3ce4-7cac-436a-a3d4-33843d766e7f.png)
