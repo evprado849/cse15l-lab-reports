@@ -51,6 +51,8 @@ account:_
 * I used `scp` command in order to get the repository on my local laptop onto my remote account.
 * Showing a successful copy command on the terminal:
 ![image](https://user-images.githubusercontent.com/103149284/167501832-c4208dff-ad12-47d6-8e5b-cb1b4a08246e.png)
+![image](https://user-images.githubusercontent.com/103149284/167502742-0e97858a-381a-4e9d-9723-4ce9bee543cb.png)
+
 * Showing that the new markdown-parse repository was also copied onto my remote account:
 ![image](https://user-images.githubusercontent.com/103149284/167502035-a4bc8bfc-b03a-4034-917f-4316cf2322ed.png)
 
