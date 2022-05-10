@@ -39,8 +39,12 @@ _Running `git` commands to commit:_
 * I needed to do git pull (before I made changes on the remote account) to get other changes and then do `git push origin main` (The success that the java file changed is the message below after `git push origin main`).
 ![image](https://user-images.githubusercontent.com/103149284/167491222-39faf8e9-6497-451a-85ed-90a63bf40907.png)
 
-
-_Link to show commit:_
+Commiting change on remote server:
+![image](https://user-images.githubusercontent.com/103149284/167520441-f2f8c3c7-9f20-476c-8bcd-4b6c1424a864.png)
+![image](https://user-images.githubusercontent.com/103149284/167520467-5f6aae94-b91c-482f-8514-84a558987d5d.png)
+* I use the following git commands in order to show on GitHub, the changes I made on my remote to the GitHub repo:
+* `git status` `git commit -m ""` `git push` All those methods were done on the terminal from the remote sever to see the changes.
+[Link to show commit:](https://github.com/evprado849/markdown-parser/commit/060ad3688221f275c54318f2aada0a9b34db65f2)
 
 
 **Copying whole directories with `scp -r`:**
