@@ -55,4 +55,3 @@ For testing the snippet files, including snippet3.md file, I ran into a Heap err
 
 How our group could fix the implementation:
 The group's implementation failed snippet3 because it expected `https://www.twitter.com` link, however it got end of array instead. From what I see, I got this because the first link had a line break. The way I believe our group could fix this is writing a code like if there is a line break, continue onto the next line. This way, we don't get to end of array for the actual link. From there, if we reach the end of the array without finding the closed bracket with `int closeBracket = markdown.indexOf("]", openBracket);`, then continue to look for it in the next line.
-
