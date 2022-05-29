@@ -42,7 +42,9 @@ Expected From CommonMark.js for Snippet3.md:
 ![image](https://user-images.githubusercontent.com/103149284/170423077-66308729-4eff-4f95-b2ad-c928a5cf200e.png)
 
 How I could fix my implementation:
-For testing the snippet files, including snippet3.md file
+For testing the snippet files, including snippet3.md file, I ran into a Heap error. I believe after seeing my group's repo, there is some changes I can make to at least make snippet3 run without running into an error. I could use my group's implementation of dealing with white space, considering how my implementation probably didn't read the next line after the first long line with a break. It may not directly fix it, but it is a start to reach to the end of the line continuing:
+![image](https://user-images.githubusercontent.com/103149284/170854905-35858db4-b3bc-48f1-9c48-0154b8067564.png)
+
 
 * Group's (Repository) of MarkdownParseTest.java:
 ![image](https://user-images.githubusercontent.com/103149284/170423177-64a09730-69a8-42c1-b164-d525c928f16f.png)
