@@ -15,7 +15,7 @@ In my implementation, I got a Heap error, and it occured on line 25. I could fix
 * Group's (Repository) of MarkdownParseTest.java:
 ![image](https://user-images.githubusercontent.com/103149284/169955958-46314323-e855-4dae-9790-18beac03a3bf.png)
 How our group could fix the implementation:
-In my group's implementation, the expected JUnit failed because it expected url.com bur rather went to `ucsd.edu`.
+In my group's implementation, the expected JUnit failed because it expected url.com but rather went to ucsd.edu. From what I see, it completely skipped over url.com and went straight to the end, ucsd.edu because of some of the brackets which was included between the tick marks. The way I think our group can fix this, is include a code that finds an instance of a open and closed tickmark. For example, maybe our group can put something like: `int tickMark = markdown.indexOf("`", tickMarkIndex);`. Although its not perfect, I think if our group found a way to use something like that approach, it can help get the link.
 
 
 
