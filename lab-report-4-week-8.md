@@ -26,12 +26,10 @@ Expected From CommonMark.js for Snippet2.md:
 
 * My Implementation (Repository) of MarkdownParseTest.java:
 ![image](https://user-images.githubusercontent.com/103149284/170422191-abefa2b0-4b16-4470-a8b3-020bc6e57412.png)
-
 How I could fix my implementation:
-Similarly to snippet1.md for my implementation, I got a Heap error and
+Similarly to snippet1.md for my implementation, I got a Heap error in my MarkdownParse.java while iterating through snippet2.md contents.
 * Group's (Repository) of MarkdownParseTest.java:
 ![image](https://user-images.githubusercontent.com/103149284/170422460-ff23cf91-0ca5-4cd8-9977-af6612944331.png)
-
 How our group could fix the implementation:
 For snippet2.md at least, I see that it expected b.com, but instead was a.com. From what I see, our group could fix this (for this specific snippet file at least), that if there is a second `[`, to write some code like `int duplicateBracketOpen = markdown.indexOf("["); int duplicateBracketClosed = markdown.indexOf("]");` then after that code runs, to get whatever code we got in between the duplicates and have it included when we get the actual closing bracket (`int closeBracket = markdown.indexOf("]", openBracket);`). This way, we could get the expected b.com for this specific test.
 
@@ -44,10 +42,10 @@ Expected From CommonMark.js for Snippet3.md:
 ![image](https://user-images.githubusercontent.com/103149284/170423077-66308729-4eff-4f95-b2ad-c928a5cf200e.png)
 
 How I could fix my implementation:
-
+For testing the snippet files, including snippet3.md file
 
 * Group's (Repository) of MarkdownParseTest.java:
 ![image](https://user-images.githubusercontent.com/103149284/170423177-64a09730-69a8-42c1-b164-d525c928f16f.png)
 How our group could fix the implementation:
-The group's implementation failed snippet3 because
+The group's implementation failed snippet3 because it expected `https://www.twitter.com` link, however it got end of array instead. From what I see, I got this because the first link had a line break. The way I believe our group could fix this is writing a code like if there is a line break, continue onto the next line. This way, we don't get to end of array for the actual link. From there, if we reach the end of the array without finding the closed bracket with `int closeBracket = markdown.indexOf("]", openBracket);`, then continue to look for it in the next line.
 
