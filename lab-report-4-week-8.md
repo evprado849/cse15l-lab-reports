@@ -4,7 +4,7 @@
 * [My implemention (repository) of MarkdownParse](https://github.com/evprado849/markdown-parser)
 * [Implemention of MarkdownParse from Group (Group repository)](https://github.com/UDXS/markdown-parser)
 
-Notes: I did include the expected from CommonMark.js, but I also changed it so that in VSCode, we get the actual links as the expected (on the JUnit tests). COmmonMark.js is there for reference.
+Notes: I did include the expected from CommonMark.js, but I also changed it so that in VSCode, we get the actual links as the expected (on the JUnit tests). CommonMark.js is there for reference for how it would actually look like.
 
 
 _Snippet1.md:_
