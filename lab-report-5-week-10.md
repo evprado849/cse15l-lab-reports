@@ -2,6 +2,8 @@
 
 [My Repository](https://github.com/evprado849/markdown-parser)
 [Given Repository](https://github.com/nidhidhamnani/markdown-parser)
+
+
 _Using vimdiff for differences:_
 * I see how different my implmentations for my MarkdownParse vs the given Repository. It's very different from the given Repository because I remember how in the last Report, my implementation was buggy.
 * After running the scripts for both my own repository and on the given repository, I recall that on the given repository, I got successful [] (brackets] for those that don't have a link/contents, however, for those that did have cotnents within them, it contained links (i.e: [https://something.com], just an example).
